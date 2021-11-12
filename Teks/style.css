@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1f1f;
+    color: #ffffff;
+    font-family: 'Poppins';
+    height: 1000px;
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: #797979 1px solid;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 4;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+    margin-left: 20px;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 5%;
+    border-right: #797979 1px solid;
+}
+
+a {
+    margin: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin-top: 65px;
+}
+
+.tittle {
+    height: 740px;
+    background-image: url(https://hypescrape.com/wp-content/uploads/2021/03/Wethenew-Sneakers-france-Nike-Air-Force-1-Sketch-Black-Swoosh_2000x_59bb8312-441a-4f2a-a9ea-4873c96e0593.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: 60px;
+    top: 20;
+}
+
+.main-tittle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.main-tittle > .subtittle {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.tittle > .lista {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: baseline;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.lista > li {
+    padding: 10px;
+    font-size: 22px;
+}
+
+#nike {
+    background-color: #111;
+    height: 1040px;
+}
+
+#nike p {
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+#nike-mujer p {
+    font-size: 30px;
+    margin-left: 8%;
+    margin-top: 2em;
+}
+
+#nike-mujer {
+    background-color: #111;
+    height: 1040px;
+    border-top: beige 1px solid;
+}
+
+.nike-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nike-logo > img {
+    width: 400px;
+}
+
+.nike-zapatillas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em 0;
+}
+
+.zapas {
+    position: relative;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 8px 0px 30px 0 rgba(255, 255, 255, 0.25);
+    transition: all ease 0.8s;
+}
+
+.zapas:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 8px 0px 35px 0 rgba(255, 255, 255, 0.30);
+}
+
+
+.zapas figcaption {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(114, 94, 64, 0.7);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 0;
+    transition: all ease 0.8s;
+    opacity: 0;
+    z-index: 2;
+    border-radius: 0 0 15px 15px;
+}
+
+.zapas:hover figcaption{
+    opacity: 1;
+} 
+
+.zapas:hover > .imagen-primera {
+    z-index: -1;
+}
+
+.imagen-primera {
+    width: 350px;
+    border-radius: 15px;
+    transition: all ease 0.8s;
+    z-index: 1;
+    position: relative;
+}
+
+.imagen-hover{
+    width: 100%;
+    border-radius: 15px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#vans {
+    background-color: white;
+    height: 1040px;
+}
+.vans-logo {
+    display: flex;
+    justify-content: center;
+}
